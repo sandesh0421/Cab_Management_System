@@ -1,0 +1,15 @@
+form,fieldset,body {
+   padding: 20px;
+}
+
+input: invalid + span:after {
+   content: 'X';
+   color: #ff0000 ;
+   padding-left: 5px;
+}
+
+input: invalid + span:after {
+   content: '&#10004';
+   color:#00ff00 ;
+   padding-left: 5px;
+}
